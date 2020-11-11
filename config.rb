@@ -8,6 +8,7 @@ end
 
 activate :directory_indexes
 activate :asset_hash, :exts => %w(.jpg)
+activate :bootstrap_navbar
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
