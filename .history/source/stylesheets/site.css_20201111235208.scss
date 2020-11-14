@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+// @import "bourbon";
+@import "base/base";   /* Bitters needs to be imported before Neat */
+// @import "neat";
+
+body {
+   background-color: grey;
+  color:green;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 18vh 1rem;
+  text-align: center;
+  //  background-image: url("/images/pexels-negative-space-97077.jpg")
+}   
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem;
+}

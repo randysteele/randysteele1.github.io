@@ -11,6 +11,9 @@ GEM
     autoprefixer-rails (9.8.6.5)
       execjs
     backports (3.18.2)
+    base (0.0.2)
+    bourbon (7.0.0)
+      thor (~> 1.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -101,6 +104,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base
+  bourbon
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   tzinfo-data
